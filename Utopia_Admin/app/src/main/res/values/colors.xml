@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#522158</color>
+    <color name="colorPrimaryDark">#704168</color>
+    <color name="colorAccent">#B43159</color>
+
+    <color name="message">#745E6F</color>
+    <color name="primary_white">#c46399</color>
+    <color name="transparent">#0000ffff</color>
+
+    <color name="offwhite">#cfcbca</color>
+    <color name="white">#ffffff</color>
+
+    <color name="yollow">#eeb462</color>
+    <color name="yollow2">#e7b43c</color>
+
+    <color name="orange">#EDF85D2B</color>
+    <color name="time_table_color">#F1E2C4</color>
+
+    <color name="second_color">#ee5a5b</color>
+
+    <color name="blue">#00acbc</color>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.eschima.utopia_admin">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Pages.IT_Unit.IT_Support.IT_Support_Main_Page"></activity>
+        <activity android:name=".Pages.IT_Unit.IT_Support.It_Main_Page" />
+        <activity android:name=".Pages.IT_Unit.IT_Support.Technical_Support.Solve_Technical_Page" />
+        <activity android:name=".Pages.IT_Unit.IT_Support.Technical_Support.Adapter.Solve_Page" />
+        <activity android:name=".Pages.IT_Unit.IT_Support.Periodic__Tasks.Perform_Page" />
+        <activity android:name=".Pages.IT_Unit.IT_Observations.Add_Device_Examination" />
+        <activity android:name=".Pages.HSE.Add_new_Healthy_Aware" />
+        <activity android:name=".Pages.HSE.Add_New_Healthy_Guide" />
+        <activity android:name=".Pages.HSE.Healthy_Activities" />
+        <activity android:name=".Pages.Student_Affairs.Parents_Information.Parent_information" />
+        <activity android:name=".Pages.Student_Affairs.Student_Request.Student_Request" />
+        <activity android:name=".Pages.Student_Affairs.Student_Report.Student_Report" />
+        <activity android:name=".Pages.Student_Affairs.Student_Attendance.Attendance_Details" />
+        <activity android:name=".Pages.Student_Affairs.Student_Attendance.Attendance" />
+
+        <activity android:name=".Pages.Student_Affairs.Student_Affairs_Page" />
+        <activity android:name=".Pages.Student_Affairs.School_Management.SchoolManagement_Page" />
+        <activity android:name=".Pages.Library.Add_New_Book" />
+        <activity android:name=".Pages.Library.Library_Page" />
+        <activity android:name=".Pages.IT_Unit.IT_Observations.Examination_Page" />
+        <activity android:name=".Pages.IT_Unit.IT_Observations.Observation_Page" />
+        <activity android:name=".Pages.IT_Unit.IT_Observations.Add_Device" />
+        <activity android:name=".Pages.IT_Unit.IT_Support.Technical_Support.Technical_support_page" />
+        <activity android:name=".Pages.IT_Unit.IT_Support.Periodic__Tasks.Assign_Finish_Tasks" />
+        <activity android:name=".Pages.Splash_Login.Login" />
+        <activity android:name=".Pages.Splash_Login.Splash_Screen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+
+        </activity>
+    </application>
+
+</manifest>

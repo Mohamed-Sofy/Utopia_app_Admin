@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/mini_icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/person"
+            android:padding="5dp"
+            android:text="ddddddddddddddddddddddddd"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:drawablePadding="10dp"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="50dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="date"
+            android:textColor="@color/yollow"
+            android:textSize="19dp"
+            android:drawablePadding="5dp"
+            android:padding="3dp"
+            android:drawableLeft="@drawable/date_time_icon"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="state"
+            android:textColor="@color/yollow"
+            android:textSize="19dp"
+            android:drawablePadding="5dp"
+            android:padding="3dp"
+            android:drawableLeft="@drawable/state_icon"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="type"
+            android:textColor="@color/yollow"
+            android:textSize="19dp"
+            android:drawablePadding="5dp"
+            android:padding="3dp"
+            android:drawableLeft="@drawable/grade_icon"
+
+            />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

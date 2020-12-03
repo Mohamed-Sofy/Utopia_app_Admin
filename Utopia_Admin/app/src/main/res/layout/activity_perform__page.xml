@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context=".Pages.IT_Unit.IT_Support.Periodic__Tasks.Perform_Page">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_border1"
+        android:layout_marginVertical="30dp"
+        android:layout_marginHorizontal="20dp"
+        android:text="fffffffff"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:padding="8dp"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginVertical="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Task Execution Comment"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="3dp"
+            />
+
+        <EditText
+            android:id="@+id/perform_comment"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginHorizontal="15dp"
+            android:text=""
+
+            android:textSize="19dp"
+            android:textColor="@color/white"
+            android:padding="8dp"
+            android:background="@drawable/main_border1"
+
+
+            android:scrollbars="vertical"
+            android:inputType="textMultiLine"
+            android:gravity="left"
+            android:maxHeight="100dp"
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginVertical="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Task Evaluation"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="3dp"
+            />
+
+        <EditText
+            android:id="@+id/perform_evaluation"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginHorizontal="15dp"
+            android:text=""
+
+            android:textSize="19dp"
+            android:textColor="@color/white"
+            android:padding="8dp"
+            android:background="@drawable/main_border1"
+
+
+            android:scrollbars="vertical"
+            android:inputType="textMultiLine"
+            android:gravity="left"
+            android:maxHeight="100dp"
+            />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/save_perform_btn"
+        android:layout_gravity="bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Perform"
+        android:textSize="18dp"
+        android:textAllCaps="false"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="8dp"
+        android:textColor="@color/white"
+        android:background="@drawable/fram_border3"
+
+        />
+
+</LinearLayout>
